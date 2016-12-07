@@ -7,14 +7,6 @@ namespace XN_ListView.iOS
 {
     public partial class CircleImageViewCell : UITableViewCell
     {
-        public static readonly NSString Key = new NSString("CircleImageViewCell");
-        public static readonly UINib Nib;
-
-        static CircleImageViewCell()
-        {
-            Nib = UINib.FromName("CircleImageViewCell", NSBundle.MainBundle);
-        }
-
         protected CircleImageViewCell(IntPtr handle) : base(handle)
         {
             // Note: this .ctor should not contain any initialization logic.
